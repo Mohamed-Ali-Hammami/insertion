@@ -1,0 +1,14 @@
+ALGORITHM 
+ void insertionSort(int arr[], int n)
+{
+
+VAR
+    
+    PROCEDURE remplir(var t:tab,n:integer)
+    VAR
+     int:i, key, j;
+    BEGIN
+     for (i = 1; i < n; i++) {
+        key = arr[i];
+        j = i - 1;
+    END
